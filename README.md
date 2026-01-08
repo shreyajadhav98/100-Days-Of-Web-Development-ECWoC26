@@ -198,4 +198,4 @@ To maintain a clean and collaborative codebase, follow these Git workflow guidel
 
 <img src="https://contributors-img.web.app/image?repo=Shubham-cyber-prog/100-Days-Of-Web-Development-ECWoC26"/>
 
-![100 Days 100 Projects Banner](https://capsule-render.vercel.app/api?type=waving&color=0:1E90FF,50:9370DB,100:0000CD&height=250&section=header&text=100%20Days%20100%20Projects&fontSize=65&fontAlignY=40&fontColor=ffffff&animation=fadeIn&stroke=00BFFF&strokeWidth=2)
+![100 Days 100 Projects Banner](https://capsule-render.vercel.app/api?
