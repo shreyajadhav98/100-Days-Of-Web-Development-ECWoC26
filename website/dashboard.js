@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+
     // Projects data
     const projects = [
         // BEGINNER (Days 1-30) - Updated to match your actual Day XX folders
@@ -52,6 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // ... add more as you complete them
         { day: 100, title: "Master Project", folder: "Day 100", level: "Capstone", tech: ["HTML", "CSS", "JS", "React"] }
     ];
+
 
     // Check authentication
     const isAuthenticated = localStorage.getItem('isAuthenticated');
