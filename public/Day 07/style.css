@@ -162,7 +162,21 @@ input:focus, select:focus {
 
 .delete-btn:hover {
     background: #c82333;
+}.edit-btn {
+    background: #ffc107;
+    color: #333;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 8px;
 }
+
+.edit-btn:hover {
+    background: #e0a800;
+}
+
 
 .empty-state {
     text-align: center;
