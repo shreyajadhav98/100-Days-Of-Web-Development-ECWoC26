@@ -1,3 +1,4 @@
+/* RESET */
 * {
   margin: 0;
   padding: 0;
@@ -5,47 +6,26 @@
   font-family: "Poppins", sans-serif;
 }
 
+
+/* VARIABLES */
 :root {
   --primary: #4f46e5;
   --dark: #1f2937;
   --light: #f9fafb;
+
   --white: #fff;
-
-
   --white: #ffffff;
-
 }
 
+
+/* BODY */
 body {
   background: var(--white);
   color: var(--dark);
 }
 
-/* COMMON */
-.container { max-width: 1200px; margin: auto; padding: 0 20px; }
-.section-title { text-align: center; font-size: 2.5rem; margin-bottom: 50px; }
-
-.btn {
-  padding: 12px 30px;
-  border-radius: 25px;
-  display: inline-block;
-  font-weight: 600;
-  transition: 0.3s;
-}
-
-.btn-primary { background: var(--primary); color: white; }
-.btn-primary:hover { transform: scale(1.05); }
-
-.btn-secondary { border: 2px solid white; color: white; }
-
-/* HEADER */
-
-  line-height: 1.6;
-}
-
 
 /* COMMON */
-
 .container {
   max-width: 1200px;
   margin: auto;
@@ -54,21 +34,19 @@ body {
 
 .section-title {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   margin-bottom: 50px;
   font-weight: 700;
 }
 
 
 /* BUTTONS */
-
 .btn {
-  padding: 12px 32px;
+  padding: 12px 30px;
   border-radius: 30px;
-  display: inline-block;
   font-weight: 600;
   text-decoration: none;
-  transition: all 0.3s ease;
+  transition: 0.3s;
 }
 
 .btn-primary {
@@ -78,7 +56,6 @@ body {
 
 .btn-primary:hover {
   background: #4338ca;
-  transform: translateY(-2px);
 }
 
 .btn-outline {
@@ -96,13 +73,8 @@ body {
   color: var(--primary);
 }
 
-.btn-light:hover {
-  background: #e0e7ff;
-}
-
 
 /* HEADER */
-
 header {
   position: fixed;
   width: 100%;
@@ -130,16 +102,9 @@ nav ul {
   list-style: none;
 }
 
-.mobile-menu-btn { display: none; background: none; border: none; font-size: 22px; }
-
-/* HERO */
-.hero {
-  padding: 140px 0 80px;
-
 nav a {
   text-decoration: none;
   color: var(--dark);
-  font-weight: 500;
 }
 
 nav a:hover {
@@ -155,7 +120,6 @@ nav a:hover {
 
 
 /* HERO */
-
 .hero {
   padding: 150px 0 90px;
   background: linear-gradient(135deg, #eef2ff, #c7d2fe);
@@ -167,12 +131,12 @@ nav a:hover {
   gap: 40px;
 }
 
+
 .hero-content h1 { font-size: 3rem; margin-bottom: 20px; }
 .hero-image img { width: 100%; border-radius: 20px; }
 
 /* FEATURES */
 .features { padding: 80px 0; background: var(--light); }
-
 
 .hero-content h1 {
   font-size: 3rem;
@@ -196,7 +160,6 @@ nav a:hover {
 
 
 /* FEATURES */
-
 .features {
   padding: 80px 0;
   background: var(--light);
@@ -204,7 +167,7 @@ nav a:hover {
 
 .features-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
   gap: 25px;
 }
 
@@ -215,6 +178,7 @@ nav a:hover {
   text-align: center;
   transition: 0.3s;
 }
+
 
 .feature-card:hover { transform: translateY(-10px); }
 
@@ -231,7 +195,6 @@ nav a:hover {
 }
 
 /* CTA */
-
 .feature-card i {
   font-size: 30px;
   color: var(--primary);
@@ -245,7 +208,6 @@ nav a:hover {
 
 
 /* TESTIMONIALS */
-
 .testimonials {
   padding: 80px 0;
   text-align: center;
@@ -272,7 +234,6 @@ nav a:hover {
 }
 
 .testimonial span {
-  font-size: 0.9rem;
   color: gray;
 }
 
@@ -290,13 +251,8 @@ nav a:hover {
   cursor: pointer;
 }
 
-.slider-btns button:hover {
-  background: #4338ca;
-}
-
 
 /* CTA */
-
 .cta {
   background: var(--primary);
   color: white;
@@ -304,7 +260,9 @@ nav a:hover {
   text-align: center;
 }
 
+
 /* FOOTER */
+
 
 
 .cta h2 {
@@ -317,13 +275,17 @@ nav a:hover {
 
 
 /* FOOTER */
-
 footer {
   background: #020617;
   color: white;
   padding: 20px;
   text-align: center;
 }
+
+
+/* SCROLL BUTTON */
+
+
 
 /* SCROLL BUTTON */
 
@@ -337,26 +299,11 @@ footer {
   border-radius: 50%;
   padding: 12px;
   border: none;
-}
-
-/* RESPONSIVE */
-@media (max-width: 768px) {
-  .hero-container { flex-direction: column; text-align: center; }
-  nav ul { 
-    position: absolute; top: 70px; left: 0; width: 100%;
-    background: white; flex-direction: column; display: none; 
-  }
-  nav ul.active { display: flex; }
-  .mobile-menu-btn { display: block; }
-
-  padding: 12px 14px;
-  border: none;
   cursor: pointer;
 }
 
 
 /* RESPONSIVE */
-
 @media (max-width: 768px) {
 
   .hero-container {
